@@ -1,35 +1,59 @@
 @media screen and (max-width: 576px) {
-    .header-section .nav{
+    .header-section .nav {
         padding: 20px
     }
 
-    .header-section .nav .links{
+    .header-section .nav .links {
         display: none;
     }
-    .hamburger-manu-bars{
+
+    .hamburger-manu-bars {
         display: block;
     }
-    .banner-main-conteiner-section{
+
+    .banner-main-conteiner-section {
         flex-direction: column;
     }
-    .banner-conteiner-section-all-text-and-button{
+
+    .banner-conteiner-section-all-text-and-button {
         height: auto;
     }
-    .banner-conteiner-section-all-text-and-button button{
+
+    .banner-conteiner-section-all-text-and-button button {
         margin-bottom: 20px;
     }
-    .banner-conteiner-section-all-text-and-button .banner-section-btn{
+
+    .banner-conteiner-section-all-text-and-button .banner-section-btn {
         flex-direction: column;
     }
-    .banner-main-conteiner-section .banner-image-section{
-        width:349px;
+
+    .banner-main-conteiner-section .banner-image-section {
+        width: 349px;
         height: auto;
         border: 1px solid rgb(0, 42, 255);
         /* display: none; */
     }
 
-     /* rount image section  */
-     .change-Your-habits-rount-imges-conteiner-section {
+    /* rount image section  */
+    .change-Your-habits-rount-imges-conteiner-section {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* ==================================================================== Run an Extra Mile Easily-section-Start */
+    .run-conteiner-section {
+        flex-direction: column;
+        height: auto;
+
+    }
+    .run-conteiner-title-and-description {
+        height:auto;
+    }
+    .run-conteiner-section-images {
+        max-width:366px;
+        height: auto;
+
+    }
+    .run-conteiner-section-images img{
+        margin-bottom: 20px;
     }
 }
