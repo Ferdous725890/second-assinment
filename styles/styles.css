@@ -10,28 +10,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
- /*======================================================================== SHARD STYLE */
- .hide{
-    display:none;
- }
- .display{
+
+/*======================================================================== SHARD STYLE */
+.hide {
+    display: none;
+}
+
+.display {
     display: flex;
- }
- .littil-text-color{
-    color:rgba(255, 255, 255, 0.5);;
- }
-.border{
+}
+
+.littil-text-color {
+    color: rgba(255, 255, 255, 0.5);
+    ;
+}
+
+.border {
     border: 2px solid red;
 }
-.btn-primary{
+
+.btn-primary {
     font-size: 1rem;
     font-weight: 600;
     padding: 10px 30px 10px 30px;
     border-radius: 46px;
     border: 1px solid rgb(255, 255, 255);
 }
+
 /* --------------------------------------------------------------------------------------------------- */
 
 
@@ -73,7 +80,7 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    padding:8px 5px 10px 0px ;
+    padding: 8px 5px 10px 0px;
 }
 
 .header-section .nav ul li {
@@ -90,51 +97,124 @@
     ;
 
 }
-.hamburger-manu-bars{
+
+.hamburger-manu-bars {
     display: none;
 }
+
 /* ===================================================================== banner-section-Start */
 /* banner text */
-.banner-main-conteiner-section{
+.banner-main-conteiner-section {
     justify-content: space-between;
     margin-top: 100px;
     margin: 0 auto;
 }
-.banner-conteiner-section-all-text-and-button{
+
+.banner-conteiner-section-all-text-and-button {
     border: 1px solid red;
-    max-width:599.05px;
+    max-width: 599.05px;
     height: 439px;
 }
-.banner-conteiner-section-all-text-and-button h1{
+
+.banner-conteiner-section-all-text-and-button h1 {
     font-size: 3.875rem;
     font-weight: 900;
     line-height: 110%;
 }
-.banner-conteiner-section-all-text-and-button p{
+
+.banner-conteiner-section-all-text-and-button p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
     margin: 25px 0px 25px 0px;
 }
-.banner-conteiner-section-all-text-and-button .join-club-button{
+
+.banner-conteiner-section-all-text-and-button .join-club-button {
     background: rgb(230, 83, 60);
     border: none;
     margin-right: 20px;
 }
-.banner-conteiner-section-all-text-and-button .download-app{
+
+.banner-conteiner-section-all-text-and-button .download-app {
     background-color: transparent;
 
 }
 
 /* banner images section */
 
-.banner-main-conteiner-section .banner-image-section{
-    width:349px;
+.banner-main-conteiner-section .banner-image-section {
+    width: 349px;
     height: 580px;
-    border: 1px solid yellow; 
+    border: 1px solid yellow;
 }
-.banner-main-conteiner-section .banner-image-section img{
-    width:100%;
+
+.banner-main-conteiner-section .banner-image-section img {
+    width: 100%;
     height: 100%;
+}
+
+/* ===================================================================== change-Your-habits-Start */
+.change-your-havits-section-title-and-description {
+    text-align: center;
+}
+
+.change-your-havits-section-title-and-description h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.change-your-havits-section-title-and-description p {
+    margin-top: 15px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.change-Your-habits-conteiner-section {
+    margin-top: 120px;
+    /* border: 1px solid red; */
+
+}
+
+.change-Your-habits-rount-imges-conteiner-section {
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rount-images-secion {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.rount-images-secion h5{
+    margin: 15px 0px 10px 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.rount-images-secion p{
+    text-align: center;
+   font-size: 0.825rem;
+}
+
+.rount-images-secion img {
+    border-radius: 50%;
+    border: 1px solid lightcyan;
+    background: url(image);
+
+}
+
+
+
+/* ==================================================================== Run an Extra Mile Easilysection-Start */
+.run-conteiner-section{
+    margin-top: 100px;
+    background-color: rgb(34, 34, 34);
+    height: 371px;
 }
