@@ -14,11 +14,9 @@
     .banner-main-conteiner-section {
         flex-direction: column;
     }
-
     .banner-conteiner-section-all-text-and-button {
         height: auto;
     }
-
     .banner-conteiner-section-all-text-and-button button {
         margin-bottom: 20px;
     }
@@ -28,9 +26,10 @@
     }
 
     .banner-main-conteiner-section .banner-image-section {
-        width: 349px;
+        max-width: 349px;
         height: auto;
         border: 1px solid rgb(0, 42, 255);
+        margin-left: 10px;
         /* display: none; */
     }
 
@@ -45,15 +44,129 @@
         height: auto;
 
     }
+
     .run-conteiner-title-and-description {
-        height:auto;
+        height: auto;
     }
+
     .run-conteiner-section-images {
-        max-width:366px;
+        max-width: 366px;
         height: auto;
 
     }
-    .run-conteiner-section-images img{
+
+    .run-conteiner-section-images img {
         margin-bottom: 20px;
     }
+
+    .traininer-images-section-or-galary {
+        display: none;
+    }
+
+    .trainings-and-exercises-conteiner-section {
+        display: none;
+    }
+
+    .meet-our-tem-section-images-conteiner {
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+
+    .our-tem-members img {
+        position: center;
+
+    }
+
+    .footer-conteiner {
+        grid-template-columns: repeat(1, 1fr);
+        border: 1px solid red;
+        height: auto;
+        gap: 50px;
+
+    }
+
+    .meet-our-tem-section-images-conteiner {
+        margin: 0 auto;
+        margin-left: 30px;
+    }
+
+    .meet-out-team-secion-title {
+        max-width: 671px;
+        height: auto;
+        border: 10px solid red;
+
+    }
+
+    .banner-main-conteiner-section {
+        padding-left: 15px;
+    }
+
+    .run-conteiner-title-and-description {
+        text-align: center;
+    }
+
+    .meet-our-tem-section-images-conteiner {
+        margin-top: 30px;
+    }
+
+    .meet-out-team-secion-title .meet-titls {
+        margin-bottom: 10px;
+    }
+
+    .footer-conteiner {
+        margin-left: 10px;
+    }
+
+    .background-colors {
+        height: auto;
+    }
+
+    .copy-write-2024-batch-10 {
+        padding-bottom: 50px;
+    }
+
+    .bmi-calculate-chart-and-calculate-conteiner {
+        flex-direction: column;
+    }
+
+    .bmi-table {
+        max-width: 310px;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .full-conteiner-bg {
+        height: auto;
+    }
+
+    .table,
+    th,
+    td {
+        border: 1px solid rgba(250, 250, 210, 0.411);
+        width: none;
+        border-collapse: collapse;
+        padding: none;
+    }
+    .bmi-table h1 {
+        font-size: 1rem;
+    }
+    .caculated-bmi-conteiner-section {
+        max-width: 577px;
+        height: auto;
+    }
+    .titls-test-style-color {
+        font-size: 1rem;
+        color: red
+    }
+    .bmi-calcultd-title-and-description {
+        max-width: 354px;
+        height: auto;
+    }
+    .bmi-calcultd-title-and-description p {
+        font-size: 1rem;
+        color: blue;
+    }
+
+
+
 }

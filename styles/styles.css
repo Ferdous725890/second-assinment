@@ -13,7 +13,7 @@
     color: rgb(255, 255, 255);
 }
 
-/*======================================================================== SHARD STYLE */
+/*=========================================================== SHARD STYLE */
 .hide {
     display: none;
 }
@@ -50,14 +50,14 @@
 
 
 .full-body {
-    max-width: 1305px;
+    /* max-width: 1305px; */
     background-color: black;
     color: white;
     margin: 0 auto;
     height: 5000px;
-    /*======================================================================== Not Improtent  */
+    /*=================================================== Not Improtent  */
     border: 1px solid rgb(77, 255, 0);
-    /*======================================================================== Not Improtent  */
+    /*=================================================== Not Improtent  */
 
 }
 
@@ -68,7 +68,7 @@
     margin-top: 57px;
 }
 
-/* ================================================================================ nav bar style heres  */
+/* ===================================================== nav bar style heres  */
 .header-section .nav {
     display: flex;
     justify-content: space-between;
@@ -76,6 +76,7 @@
 }
 
 .header-section .nav h1 {
+    font-style: italic;
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
     font-weight: 700;
@@ -109,7 +110,7 @@
     display: none;
 }
 
-/* ===================================================================== banner-section-Start */
+/* ==================================================== banner-section-Start */
 /* banner text */
 .banner-main-conteiner-section {
     justify-content: space-between;
@@ -161,7 +162,7 @@
     height: 100%;
 }
 
-/* ===================================================================== change-Your-habits-Start */
+/* ================================================== change-Your-habits-Start */
 .change-your-havits-section-title-and-description {
     text-align: center;
 }
@@ -221,13 +222,13 @@
 
 
 
-/* ==================================================================== Run an Extra Mile Easilysection-Start */
+/* ============================================= Run an Extra Mile Easilysection-Start */
 .run-conteiner-section {
     display: flex;
     margin-top: 100px;
     background-color: rgb(34, 34, 34);
     height: 371px;
-    border-radius:18px;
+    border-radius: 18px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 
 }
@@ -263,4 +264,351 @@
     width: 100%;
     height: 100%;
     border-radius: 18px;
+}
+
+/*  =============================================== Trainings and Exercises-section-Start  */
+
+.trainings-and-exercises-conteiner-section {
+    margin-top: 100px;
+    border: 1px solid rebeccapurple;
+}
+
+.trainings-and-exercises-title-and-discription {
+    width: 671px;
+    height: 119px;
+    border: 1px solid rebeccapurple;
+}
+
+/* =========================================== Trainings and Exercises-galary-section-Start  */
+
+
+.traininer-images-section-or-galary img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.traininer-images-section-or-galary {
+    margin-top: 58px;
+    height: 403px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(12, 12fr);
+    grid-template-rows: repeat(12, 12fr);
+}
+
+.firs-one {
+    grid-column: 1 /span 3;
+    grid-row: 1 /span 6;
+    border: 2px solid green;
+    z-index: 1;
+    position: relative;
+
+}
+
+.firs-two {
+    grid-column: 4 /span 6;
+    grid-row: 1 /span 6;
+    border: 2px solid green;
+    z-index: 1;
+    position: relative;
+
+}
+
+.firs-three {
+    grid-column: 10 /span 3;
+    grid-row: 1 /span 6;
+    border: 2px solid green;
+
+}
+
+/* ================================================================= */
+.firs-four {
+    grid-column: 1 /span 5;
+    grid-row: 7 /span 6;
+    border: 2px solid green;
+
+
+}
+
+.firs-five {
+    grid-column: 6 /span 3;
+    grid-row: 7 /span 6;
+    border: 2px solid green;
+    z-index: 2;
+    position: relative;
+
+}
+
+.firs-six {
+    grid-column: 9 /span 4;
+    grid-row: 7 /span 6;
+    border: 2px solid green;
+    z-index: 1;
+    position: relative;
+
+}
+
+.full-time {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(6, 255, 210, 0.50);
+    position: absolute;
+    top: 00%;
+}
+
+.seconed-time {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.30);
+    top: 00%;
+}
+
+.five-times {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(66, 255, 0, 0.30);
+    top: 0%;
+
+}
+
+.six-time {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 71, 255, 0.30);
+    top: 0%;
+}
+
+ /*  ================================================== Meet Our Team-section-Start  */
+.meet-out-team-conteiner-section {
+    margin-top: 90px;
+}
+
+.meet-out-team-secion-title {
+    max-width: 671px;
+    height: 120px;
+    border: 10px solid red;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.meet-our-tem-section-images-conteiner {
+    margin-top: 60px;
+    height: 604px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.meet-our-tem-section-images-conteiner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.our-tem-members {
+    
+    width: 326.67px;
+    height: 272px;
+    border: 5px solid red;
+}
+
+.meet-our-tem-section-images-conteiner h6 {
+    font-size: 0.800rem;
+}
+
+.meet-our-tem-section-images-conteiner p {
+    font-size: 0.600rem;
+}
+
+.first-person {
+    display: flex;
+    position: relative;
+}
+
+.first-person-name {
+    position: relative;
+    top: 80%;
+    right: 70%;
+}
+/* ================================================== footer-section-Start  */
+.footer-conteiner {
+    max-width:1060px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    border: 5px solid red;
+    margin: 0 auto;
+    margin-top: 90px;
+
+}
+
+.footer-conteiner .footer-section {
+    border: 1px solid red;
+}
+
+.brand-name-or-logo {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 4.375rem;
+    font-weight: 800;
+    margin-top: 50px;
+
+}
+
+.started h1,
+.service h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.started h6,
+.service h6 {
+    margin: 7px;
+}
+
+.hrs {
+    height: 0px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+
+}
+
+.hr .copy-wright-clime {
+    margin-top:36px;
+    height: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* footer color test  */
+
+
+.background-colors{
+    height: 500px;
+    background: rgba(255, 255, 255, 0.294);
+}
+
+.full-heights{
+   max-width:1060px;
+   margin: 0 auto;
+   margin-top: 90px;
+}
+.copy-write-2024-batch-10{
+    margin-top: 25px;
+    font-size:1.25rem;
+    text-align: center;
+}
+
+/* <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+
+.bmi-title-and-description {
+    max-width: 671px;
+    border: 2px solid rgb(5, 255, 47);
+    margin: 0 auto;
+}
+.full-conteiner-bg{
+    height: 487;
+    margin-top:90px;
+    background-color:rgb(34, 34, 34) ;
+}
+
+.bmi-calculate-chart-and-calculate-conteiner{
+    max-width: 1060px;
+    border: 1px solid rgb(144, 0, 255);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bmi-table {
+    width: 400px;
+    height: 216px;
+    border: 2px solid rgb(5, 255, 47);
+    margin-top: 55px;
+}
+.bmi-table h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bmi-table{
+    /* width: 100%;
+     */
+     border: 1px solid red;
+}
+.bmi-table h1{
+    font-size: 1.5625rem;
+}
+table td{
+    font-size: 15px;
+    color:rgba(255, 255, 255, 0.5)
+}
+table, th, td{
+    border: 1px solid rgba(250, 250, 210, 0.411);
+    width: 100%;
+    border-collapse: collapse;
+    padding:7px 70px 7px 18px;  
+}
+
+
+/* ---------------- calculated bmi section */
+.caculated-bmi-conteiner-section{
+    border: 1px solid rgb(64, 0, 255);
+    margin-top:35px;
+}
+.bmi-calcultd-title-and-description{
+    border: 1px solid red;
+    
+}
+
+.bmi-calcultd-title-and-description p{
+    margin-top: 20px;
+}
+.inputes-seciton-conteiners{
+    margin-top:35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+#full-sizes{
+    width: 100%;
+}
+#full-size{
+    grid-column: span 2;
+    width: 100%;
+}
+.calculated-btn button{
+    background: rgb(230, 83, 60);
+    padding: 10px 40px 10px 40px;
+    margin: 20px 10px;
+}
+
+.inputes-seciton-conteiners input, .inputes-seciton-conteiners select{
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.112);
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 8px;
+    color:rgba(255, 255, 255, 0.6);
+
+
+
+}
+
+.inputes-seciton-conteiners input ::placeholder{
+    color:rgba(255, 255, 255, 0.6);
+    margin-left: 10px;
+}
+#class{
+    width: 100%;
 }
