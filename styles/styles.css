@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter-fronts {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
+}
+.miami{
+    font-family: 'Miama', sans-serif;
 }
 
 /*=========================================================== SHARD STYLE */
@@ -617,7 +620,7 @@ td {
     width: 193px;
     height: 98px;
     border: 1px solid red;
-    top: 30%;
+    top: 300px;
     right: 5%;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
