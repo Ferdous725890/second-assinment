@@ -133,6 +133,7 @@
 .banner-conteiner-section-all-text-and-button .join-club-button {
     border: none;
     margin-right: 20px;
+    background-color: #E6533C;
 }
 
 .banner-conteiner-section-all-text-and-button .download-app {
@@ -409,7 +410,6 @@
     gap: 100px;
     margin: 0 auto;
     margin-top: 90px;
-
 }
 
 
