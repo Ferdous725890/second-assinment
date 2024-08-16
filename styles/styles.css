@@ -51,11 +51,6 @@
     background-color: black;
     color: white;
     margin: 0 auto;
-    height: 6000px;
-    /*=================================================== Not Improtent  */
-    border: 1px solid rgb(77, 255, 0);
-    /*=================================================== Not Improtent  */
-
 }
 
 .main-conteiner-section {
@@ -675,4 +670,25 @@ font-weight: 900;
     background-color: red;
 
 
+}
+
+/* ----------------------------- card */
+.card {
+    min-height: 200px;
+    padding: 10px;
+    box-shadow: 8px 8px 8px rgba(215, 205, 205, 0.423);
+    border-radius: 16px;
+}
+
+.card img {
+    width: 100%;
+    border: 8px;
+    object-fit: cover;
+}
+
+.popular-collection-section {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
