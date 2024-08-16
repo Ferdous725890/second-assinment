@@ -17,6 +17,7 @@
 .hide {
     display: none;
 }
+
 .display {
     display: flex;
 }
@@ -58,13 +59,16 @@
     max-width: 1060px;
     margin: 0 auto;
 }
+
 /* ===================================================== nav bar style heres  */
-.header-section{
+.header-section {
     margin-bottom: 20px;
 }
-.nav{
+
+.nav {
     padding-top: 40px;
 }
+
 .header-section .nav {
     display: flex;
     justify-content: space-between;
@@ -100,6 +104,7 @@
     ;
 
 }
+
 .hamburger-manu-bars {
     display: none;
 }
@@ -122,6 +127,7 @@
     font-weight: 900;
     line-height: 110%;
 }
+
 .banner-conteiner-section-all-text-and-button p {
     font-size: 1rem;
     font-weight: 400;
@@ -143,7 +149,7 @@
 
 /* banner images section */
 .banner-main-conteiner-section .banner-image-section {
-    max-width:349px;
+    max-width: 349px;
     height: 580px;
 }
 
@@ -151,10 +157,12 @@
     width: 100%;
     height: 100%;
 }
+
 /* ================================================== change-Your-habits-Start */
 .change-your-havits-section-title-and-description {
     text-align: center;
 }
+
 .change-your-havits-section-title-and-description h1 {
     font-size: 3rem;
     font-weight: 900;
@@ -349,7 +357,7 @@
     top: 0%;
 }
 
- /*  ================================================== Meet Our Team-section-Start  */
+/*  ================================================== Meet Our Team-section-Start  */
 .meet-out-team-conteiner-section {
     margin-top: 90px;
 }
@@ -379,8 +387,8 @@
 }
 
 .our-tem-members {
-    
-   max-width: 326.67px;
+
+    max-width: 326.67px;
     height: 272px;
 }
 
@@ -402,9 +410,10 @@
     top: 80%;
     right: 70%;
 }
+
 /* ================================================== footer-section-Start  */
 .footer-conteiner {
-    max-width:1060px;
+    max-width: 1060px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
@@ -441,7 +450,7 @@
 }
 
 .hr .copy-wright-clime {
-    margin-top:36px;
+    margin-top: 36px;
     height: 24px;
     font-size: 1rem;
     font-weight: 400;
@@ -452,39 +461,42 @@
 /* footer color test  */
 
 
-.background-colors{
+.background-colors {
     height: 500px;
     background: rgba(255, 255, 255, 0.294);
 }
 
-.full-heights{
-   max-width:1060px;
-   margin: 0 auto;
-   margin-top: 90px;
+.full-heights {
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 90px;
 }
-.copy-write-2024-batch-10{
+
+.copy-write-2024-batch-10 {
     margin-top: 25px;
-    font-size:1.25rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 
 /* <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> */
 
-.bmi-title-and-description p{
+.bmi-title-and-description p {
     margin-top: 10px;
 }
+
 .bmi-title-and-description {
     max-width: 671px;
     margin: 0 auto;
     margin-top: 70px;
 }
-.full-conteiner-bg{
+
+.full-conteiner-bg {
     height: 487;
-    margin-top:90px;
-    background-color:rgb(34, 34, 34) ;
+    margin-top: 90px;
+    background-color: rgb(34, 34, 34);
 }
 
-.bmi-calculate-chart-and-calculate-conteiner{
+.bmi-calculate-chart-and-calculate-conteiner {
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
@@ -497,88 +509,157 @@
     height: 216px;
     margin-top: 55px;
 }
-.bmi-table h1{
+
+.bmi-table h1 {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.bmi-table h1{
+.bmi-table h1 {
     font-size: 1.5625rem;
 }
-table td{
+
+table td {
     font-size: 15px;
-    color:rgba(255, 255, 255, 0.5)
+    color: rgba(255, 255, 255, 0.5)
 }
-table, th, td{
+
+table,
+th,
+td {
     border: 1px solid rgba(250, 250, 210, 0.411);
     width: 100%;
     border-collapse: collapse;
-    padding:7px 70px 7px 18px;  
+    padding: 7px 70px 7px 18px;
 }
 
 /* ---------------- calculated bmi section */
-.caculated-bmi-conteiner-section{
-   max-width: 577px;
-    margin-top:35px;
+.caculated-bmi-conteiner-section {
+    max-width: 577px;
+    margin-top: 35px;
 }
 
-.bmi-calcultd-title-and-description h1{
+.bmi-calcultd-title-and-description h1 {
     margin-top: 20px;
-    font-size:1.5625rem;
+    font-size: 1.5625rem;
     margin-bottom: 10px;
 }
-.inputes-seciton-conteiners{
-    margin-top:35px;
+
+.inputes-seciton-conteiners {
+    margin-top: 35px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-#full-sizes{
+
+#full-sizes {
     width: 100%;
 }
-#full-size{
+
+#full-size {
     grid-column: span 2;
     width: 100%;
 }
-.calculated-btn button{
+
+.calculated-btn button {
     background: rgb(230, 83, 60);
     padding: 10px 40px 10px 40px;
     margin: 20px 10px;
 }
 
-.inputes-seciton-conteiners input, .inputes-seciton-conteiners select{
+.inputes-seciton-conteiners input,
+.inputes-seciton-conteiners select {
     width: 95%;
     background-color: rgba(255, 255, 255, 0.112);
     padding: 10px 0px 10px 10px;
     border: none;
     border-radius: 8px;
-    color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 
 
 
 }
 
-.inputes-seciton-conteiners input ::placeholder{
-    color:rgba(255, 255, 255, 0.6);
+.inputes-seciton-conteiners input ::placeholder {
+    color: rgba(255, 255, 255, 0.6);
     margin-left: 10px;
 }
-#class{
+
+#class {
     width: 100%;
 }
 
 /* upper .background-colors */
 
-.background-section{
-   
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+.background-section {
+
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     height: 625px;
 
 }
 
-.widths-section{
+.widths-section {
     max-width: 1060px;
     margin: 0 auto;
 }
-.bg{
+
+.bg {
     background-color: gray;
 }
+
+/* ------------------- top button section */
+.banner-image-section img {
+    position: relative;
+}
+
+.free-video {
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    border: 1px solid red;
+    top: 30%;
+    right: 5%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.free-video h1{
+    font-size: 2.5rem;
+font-weight: 900;
+}
+.free-video p{
+    font-size: 0.775rem;
+    color: rgba(255, 255, 255, 0.65);
+
+}
+
+.Video-tutorial {
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    border: 1px solid red;
+    bottom:5%;
+    right: 25%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Video-tutorial h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.Video-tutorial p{
+    font-size: 0.775rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+.rount

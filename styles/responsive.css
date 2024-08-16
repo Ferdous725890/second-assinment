@@ -191,20 +191,6 @@
         padding: 7px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .widths-section{
         max-width: 1060px;
         height: auto;
@@ -212,6 +198,17 @@
     }
     .bg{
         background-color: gray;
+    }
+
+    .Video-tutorial {
+        top:97%;
+        right:45%;
+
+    }
+    .free-video {
+        top: 60%;
+        right: 4%;
+
     }
 
 }
