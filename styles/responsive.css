@@ -14,6 +14,9 @@
     .banner-main-conteiner-section {
         flex-direction: column;
     }
+    .banner-conteiner-section-all-text-and-button h1 {
+        font-size: 2rem;
+    }
     .banner-conteiner-section-all-text-and-button {
         height: auto;
     }
@@ -86,8 +89,9 @@
     }
 
     .meet-our-tem-section-images-conteiner {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-left: 30px;
+        margin-right: 10px;
     }
 
     .meet-out-team-secion-title {
@@ -167,6 +171,41 @@
         color: blue;
     }
 
+    /* .change-Your-habits-conteiner-section{
+        margin-top: 1000px;
+    } */
+    .change-your-havits-section-title-and-description h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        
+    }
 
+    .full-body {
+        height: auto;
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .widths-section{
+        max-width: 1060px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .bg{
+        background-color: gray;
+    }
 
 }
